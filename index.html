@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BombSweeper || Vihaan. C </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bombsweeper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="shortcut icon" type="x-icon" href="bombsweeper_logo.png">
+  </head>
+  <body>
+    <center>
+      <h1 id="heading"> 💣 BombSweeper || Vihaan. C 💣</h1>
+      <br>
+      <button class="glow-on-hover" onclick="game_start()" id="start_game">START GAME</button>
+      <br>
+      <br>
+      <div id="mega_div_game_elements">
+      <div>
+        <button id="tile_1">1</button>
+        <button id="tile_2">2</button>
+        <button id="tile_3">3</button>
+        <button id="tile_4">4</button>
+      </div>
+      <br>
+      <div>
+        <button id="tile_5">5</button>
+        <button id="tile_6">6</button>
+        <button id="tile_7">7</button>
+        <button id="tile_8">8</button>
+      </div>
+      <br>
+      <div>
+        <button id="tile_9" >9</button>
+        <button id="tile_10">10</button>
+        <button id="tile_11">11</button>
+        <button id="tile_12">12</button>
+      </div>
+      <br>
+      <div>
+        <button id="tile_13">13</button>
+        <button id="tile_14">14</button>
+        <button id="tile_15">15</button>
+        <button id="tile_16">16</button>
+      </div>
+      </div>
+      <br>
+      <div id="mega_div_game_results">
+
+            <img src="victory_image.webp" id="result_img_victory">
+            <img src="lose_image.jpg" id="result_img_lose">
+             <br>
+            <label id="result_h1"></label>
+        <br>
+        <br>
+        <button id="game_restart" onclick="game_back()">Restart Game</button>
+
+      </div>
+    </center>
+    </body>
+    <script src="bombsweeper.js"></script>
+    </html>

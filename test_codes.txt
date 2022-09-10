@@ -1,0 +1,142 @@
+tile_2.addEventListener('click', ()=>{
+    console.log("Pulse Signal _> Tile 2");
+    if(random_number == 2 ) {
+        document.getElementById("mega_div_game_results").style.display = 'block';
+        document.getElementById("mega_div_game_elements").style.display = 'none';
+        document.getElementById("result_h1").innerHTML = "Victory";
+    }
+})
+
+tile_3.addEventListener('click', ()=>{
+    console.log("Pulse Signal _> Tile 3");
+    if(random_number == 3 ) {
+        document.getElementById("mega_div_game_results").style.display = 'block';
+        document.getElementById("mega_div_game_elements").style.display = 'none';
+        document.getElementById("result_h1").innerHTML = "Victory";
+    }
+})
+
+tile_4.addEventListener('click', ()=>{
+    console.log("Pulse Signal _> Tile 4");
+    if(random_number == 4 ) {
+        document.getElementById("mega_div_game_results").style.display = 'block';
+        document.getElementById("mega_div_game_elements").style.display = 'none';
+        document.getElementById("result_h1").innerHTML = "Victory";
+    }
+})
+
+tile_5.addEventListener('click', ()=>{
+    console.log("Pulse Signal _> Tile 5");
+    if(random_number == 5 ) {
+        document.getElementById("mega_div_game_results").style.display = 'block';
+        document.getElementById("mega_div_game_elements").style.display = 'none';
+        document.getElementById("result_h1").innerHTML = "Victory";
+    }
+})
+
+tile_6.addEventListener('click', ()=>{
+    console.log("Pulse Signal _> Tile 6");
+    if(random_number == 6 ) {
+        document.getElementById("mega_div_game_results").style.display = 'block';
+        document.getElementById("mega_div_game_elements").style.display = 'none';
+        document.getElementById("result_h1").innerHTML = "Victory";
+    }
+})
+
+tile_7.addEventListener('click', ()=>{
+    console.log("Pulse Signal _> Tile 7");
+    if(random_number == 7 ) {
+        document.getElementById("mega_div_game_results").style.display = 'block';
+        document.getElementById("mega_div_game_elements").style.display = 'none';
+        document.getElementById("result_h1").innerHTML = "Victory";
+    }
+})
+
+tile_8.addEventListener('click', ()=>{
+    console.log("Pulse Signal _> Tile 8");
+    if(random_number == 8 ) {
+        document.getElementById("mega_div_game_results").style.display = 'block';
+        document.getElementById("mega_div_game_elements").style.display = 'none';
+        document.getElementById("result_h1").innerHTML = "Victory";
+    }
+})
+
+tile_9.addEventListener('click', ()=>{
+    console.log("Pulse Signal _> Tile 9");
+    if(random_number == 9 ) {
+        document.getElementById("mega_div_game_results").style.display = 'block';
+        document.getElementById("mega_div_game_elements").style.display = 'none';
+        document.getElementById("result_h1").innerHTML = "Victory";
+    }
+})
+
+tile_10.addEventListener('click', ()=>{
+    console.log("Pulse Signal _> Tile 10");
+    if(random_number == 10 ) {
+        document.getElementById("mega_div_game_results").style.display = 'block';
+        document.getElementById("mega_div_game_elements").style.display = 'none';
+        document.getElementById("result_h1").innerHTML = "Victory";
+    }
+})
+
+tile_11.addEventListener('click', ()=>{
+    console.log("Pulse Signal _> Tile 11");
+    if(random_number == 11 ) {
+        document.getElementById("mega_div_game_results").style.display = 'block';
+        document.getElementById("mega_div_game_elements").style.display = 'none';
+        document.getElementById("result_h1").innerHTML = "Victory";
+    }
+})
+
+tile_12.addEventListener('click', ()=>{
+    console.log("Pulse Signal _> Tile 12");
+    if(random_number == 12 ) {
+        document.getElementById("mega_div_game_results").style.display = 'block';
+        document.getElementById("mega_div_game_elements").style.display = 'none';
+        document.getElementById("result_h1").innerHTML = "Victory";
+    }
+})
+
+tile_13.addEventListener('click', ()=>{
+    console.log("Pulse Signal _> Tile 13");
+    if(random_number == 13 ) {
+        document.getElementById("mega_div_game_results").style.display = 'block';
+        document.getElementById("mega_div_game_elements").style.display = 'none';
+        document.getElementById("result_h1").innerHTML = "Victory";
+    }
+})
+
+tile_14.addEventListener('click', ()=>{
+    console.log("Pulse Signal _> Tile 14");
+    if(random_number == 14 ) {
+        document.getElementById("mega_div_game_results").style.display = 'block';
+        document.getElementById("mega_div_game_elements").style.display = 'none';
+        document.getElementById("result_h1").innerHTML = "Victory";
+    }
+})
+
+tile_15.addEventListener('click', ()=>{
+    console.log("Pulse Signal _> Tile 15");
+    if(random_number == 15 ) {
+        document.getElementById("mega_div_game_results").style.display = 'block';
+        document.getElementById("mega_div_game_elements").style.display = 'none';
+        document.getElementById("result_h1").innerHTML = "Victory";
+    }
+})
+
+tile_16.addEventListener('click', ()=>{
+    console.log("Pulse Signal _> Tile 16");
+    if(random_number == 16 ) {
+        document.getElementById("mega_div_game_results").style.display = 'block';
+        document.getElementById("mega_div_game_elements").style.display = 'none';
+        document.getElementById("result_h1").innerHTML = "Victory";
+    }
+})
+
+
+
+    
+
+
+
+Math.floor((Math.random() * 10) + 7)
