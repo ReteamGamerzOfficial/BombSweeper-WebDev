@@ -12,7 +12,20 @@
     <center>
       <h1 id="heading"> 💣 BombSweeper || Vihaan. C 💣</h1>
       <br>
-      <button class="glow-on-hover" onclick="game_start()" id="start_game">START GAME</button>
+      <button class="glow-on-hover" onclick="game_start()" id="start_game">Start Game</button>
+      <button class="glow-on-hover" onclick="game_stop()" id="stop_game">Stop Game</button>
+      <br>
+      <button class="glow-on-hover" onclick="reset()" id="stop_game">Reset Statistics</button>
+      <br>
+      <div id="stats">
+      <label id="game_played">Games Played -> </label>
+      <br>
+      <label id="game_won">Games Won -> </label>
+      <br>
+      <label id="game_lost">Games Lost -> </label>
+      <br>
+      <label id="game_winstreak">Winstreak -> </label>
+      </div>
       <br>
       <br>
       <div id="mega_div_game_elements">
@@ -54,6 +67,19 @@
         <br>
         <br>
         <button id="game_restart" onclick="game_back()">Restart Game</button>
+
+        <div id="mega_div_statistics">
+          <br>
+          <label id="gameElementPlayedID"> Games Played -> </label>
+          <br>
+          <label id="gameElementWinID"> Games Won -> </label>
+          <br>
+          <label id="gameElementLostID"> Games Lost -> </label>
+          <br>
+          <label id="gameElementWLPID"> Win-Lose Percentage -> </label>
+          <br>
+          <label id="gameElementWLRID"> Win-Lose Ratio -> </label>
+        </div>
 
       </div>
     </center>
